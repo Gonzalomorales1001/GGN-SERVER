@@ -4,7 +4,7 @@
   "description": "Server for GGN Projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.1",
     "mongoose-schema-validator": "^1.4.4",
-    "nodemailer": "^6.9.3"
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "uuid": "^9.0.0"
   }
 }

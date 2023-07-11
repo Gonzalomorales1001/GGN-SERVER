@@ -13,10 +13,10 @@ const Product_Schema=Schema({
         type: Number,
         required: [true, 'Product must have a price']
     },
-    images: {
-        type: ArrayBuffer,
-        required: [true, 'Product must have at least 1 image']
-    }
+    // images: {
+    //     type: ArrayBuffer,
+    //     required: [true, 'Product must have at least 1 image']
+    // }
 });
 
 const Product = model('Product',Product_Schema);
